@@ -25,13 +25,13 @@ if server_ip == '':
     print('No value entered')
     sys.exit(0)
 
-print('')
-
 #User input for an port range
 range_port = input("Enter a port or a range to scan [ex: 30-40] : ")
 if range_port == '':
     print('No value entered')
     sys.exit(0)
+    
+print('')
 
 list_port=range_port.split("-")
 
